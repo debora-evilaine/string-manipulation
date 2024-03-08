@@ -5,8 +5,11 @@ public class StringProgram {
     public static void main(String[] args){
         String receivedString = ReceiveString.receiveString();
 
-        //System.out.println("Received string: " + receivedString);
+        System.out.println("Received string: " + receivedString);
 
-        ReverseString.reverseString(receivedString);
+        String reversedString = ReverseString.reverseString(receivedString);
+
+        System.out.println("Reversed string: " + reversedString);
+
     }
 }
